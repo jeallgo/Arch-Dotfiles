@@ -1,0 +1,86 @@
+configuration {
+    show-icons: true;
+    font: "Rubik 9";
+}
+
+@import "colors.rasi"
+
+* {
+    background-color: transparent;
+    text-color: @text-normal;
+}
+
+window {
+    transparency: "real";
+    location: center;
+    anchor: center;
+    width: 820px;
+    padding: 24px;
+    border-radius: 12px;
+    background-color: @bg-window-alpha;
+}
+
+mainbox {
+    spacing: 20px;
+    children: [ inputbar, listview ];
+}
+
+inputbar {
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color: @bg-input-alpha;
+    children: [ entry ];
+}
+
+entry {
+    placeholder: "Search wallpaper...";
+    placeholder-color: @text-muted;
+    text-color: @text-normal;
+    horizontal-align: 0.0;
+}
+
+listview {
+    columns: 4;
+    lines: 3;
+    spacing: 14px;
+    cycle: true;
+    dynamic: true;
+    scrollbar: true;
+    border: 0px;
+    fixed-height: false;
+    fixed-columns: true;
+}
+
+element {
+    orientation: vertical;
+    border-radius: 10px;
+    padding: 10px;
+    spacing: 8px;
+    cursor: pointer;
+}
+
+element normal.normal, element alternate.normal {
+    background-color: transparent;
+    text-color: @text-normal;
+}
+
+element selected.normal {
+    background-color: @selected-alpha;
+    text-color: @inherit;
+    border-radius: 10px;
+}
+
+element-icon {
+    size: 130px;
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+    cursor: inherit;
+}
+
+element-text {
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+    margin: 4px 0px 0px 0px;
+    text-color: inherit;
+    highlight: none;
+}

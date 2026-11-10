@@ -1,0 +1,21 @@
+[general]
+bars = 0
+bar_width = 2
+bar_spacing = 1
+
+[input]
+method = pipewire
+source = auto
+
+[color]
+gradient = 1
+gradient_count = 8
+
+gradient_color_1 = '#bac3ff'
+gradient_color_2 = '#bac3ff'
+gradient_color_3 = '#303f90'
+gradient_color_4 = '#303f90'
+gradient_color_5 = '#c3c5dd'
+gradient_color_6 = '#c3c5dd'
+gradient_color_7 = '#e5bad8'
+gradient_color_8 = '#e5bad8'

@@ -1,0 +1,34 @@
+[config]
+
+[templates.kitty]
+input_path = "/home/jeal/.config/matugen/templates/kitty.conf"
+output_path = "/home/jeal/.config/kitty/kitty-theme.conf"
+post_hook = "pkill -USR1 kitty || true"
+
+[templates.yazi]
+input_path = "/home/jeal/.config/matugen/templates/yazi-theme.toml"
+output_path = "/home/jeal/.config/yazi/theme.toml"
+
+[templates.sway]
+input_path = "/home/jeal/.config/matugen/templates/sway.conf"
+output_path = "/home/jeal/.config/sway/colors"
+post_hook = "swaymsg reload || true"
+
+[templates.cava]
+input_path = "/home/jeal/.config/matugen/templates/cava.conf"
+output_path = "/home/jeal/.config/cava/config"
+post_hook = "pkill -USR1 cava || true"
+
+[templates.waybar]
+input_path = "/home/jeal/.config/matugen/templates/waybar.css"
+output_path = "/home/jeal/.config/waybar/colors.css"
+post_hook = "pkill waybar || true; waybar &"
+[templates.rofi]
+input_path = "/home/jeal/.config/matugen/templates/rofi.rasi"
+output_path = "/home/jeal/.config/rofi/colors.rasi"
+post_hook = "pkill -USR1 rofi || true"
+
+[templates.swaync]
+input_path = "/home/jeal/.config/matugen/templates/waybar.css"
+output_path = "/home/jeal/.config/swaync/colors.css"
+post_hook = "swaync-client -R && swaync-client -rs"

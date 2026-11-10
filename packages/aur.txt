@@ -1,0 +1,7 @@
+matugen-bin      
+rmpc       
+oh-my-posh       
+ani-cli         
+mangal-bin
+hyprsunset
+qimgv

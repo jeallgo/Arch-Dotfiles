@@ -1,0 +1,464 @@
+info_begin
+format: 2
+mpd_version: 0.24.12
+fs_charset: UTF-8
+tag: Artist
+tag: ArtistSort
+tag: Album
+tag: AlbumSort
+tag: AlbumArtist
+tag: AlbumArtistSort
+tag: Title
+tag: TitleSort
+tag: Track
+tag: Name
+tag: Genre
+tag: Mood
+tag: Date
+tag: OriginalDate
+tag: Composer
+tag: ComposerSort
+tag: Performer
+tag: Conductor
+tag: Work
+tag: Movement
+tag: MovementNumber
+tag: ShowMovement
+tag: Ensemble
+tag: Location
+tag: Grouping
+tag: Disc
+tag: Label
+tag: MUSICBRAINZ_ARTISTID
+tag: MUSICBRAINZ_ALBUMID
+tag: MUSICBRAINZ_ALBUMARTISTID
+tag: MUSICBRAINZ_TRACKID
+tag: MUSICBRAINZ_RELEASETRACKID
+tag: MUSICBRAINZ_WORKID
+tag: MUSICBRAINZ_RELEASEGROUPID
+info_end
+directory: Artists
+mtime: 1784045010
+begin: Artists
+directory: Alohaii
+mtime: 1784039462
+begin: Artists/Alohaii
+directory: SUMMERTIDE
+mtime: 1784039764
+begin: Artists/Alohaii/SUMMERTIDE
+directory: Angel In Disguise
+mtime: 1784039398
+begin: Artists/Alohaii/SUMMERTIDE/Angel In Disguise
+song_begin: Angel In Disguise.flac
+Time: 174.54500000000002
+Album: SUMMERTIDE
+Title: Angel In Disguise
+Date: 20240620
+Artist: Alohaii, Kitsui Akira
+Genre: Music
+Format: 48000:24:2
+mtime: 1784038473
+added: 1794254332
+song_end
+end: Artists/Alohaii/SUMMERTIDE/Angel In Disguise
+directory: Cinnamon
+mtime: 1784039345
+begin: Artists/Alohaii/SUMMERTIDE/Cinnamon
+song_begin: Cinnamon.flac
+Time: 156.894
+Album: SUMMERTIDE
+Title: Cinnamon
+Date: 20240620
+Artist: Alohaii, Miori Celesta, Yuuna Nini
+Genre: Music
+Format: 48000:24:2
+mtime: 1784038490
+added: 1794254332
+song_end
+end: Artists/Alohaii/SUMMERTIDE/Cinnamon
+directory: Embrace
+mtime: 1784039640
+begin: Artists/Alohaii/SUMMERTIDE/Embrace
+song_begin: Embrace (feat. Kiyon).flac
+Time: 201.147
+Album: SUMMERTIDE
+Title: Embrace (feat. Kiyon)
+Date: 20240620
+Artist: Alohaii, Kiyon
+Genre: Music
+Format: 48000:24:2
+mtime: 1784038471
+added: 1794254332
+song_end
+end: Artists/Alohaii/SUMMERTIDE/Embrace
+directory: Heart Of Glass
+mtime: 1784039581
+begin: Artists/Alohaii/SUMMERTIDE/Heart Of Glass
+song_begin: Heart Of Glass.flac
+Time: 217.433
+Album: SUMMERTIDE
+Title: Heart Of Glass
+Date: 20240620
+Artist: Alohaii, Rachie
+Genre: Music
+Format: 48000:24:2
+mtime: 1784038482
+added: 1794254332
+song_end
+end: Artists/Alohaii/SUMMERTIDE/Heart Of Glass
+directory: Hopeless Romantic
+mtime: 1784039678
+begin: Artists/Alohaii/SUMMERTIDE/Hopeless Romantic
+song_begin: Hopeless Romantic.flac
+Time: 139.87
+Album: SUMMERTIDE
+Title: Hopeless Romantic
+Date: 20240620
+Artist: Alohaii, JubyPhonic
+Genre: Music
+Format: 48000:24:2
+mtime: 1784038495
+added: 1794254332
+song_end
+end: Artists/Alohaii/SUMMERTIDE/Hopeless Romantic
+directory: Love Me Not
+mtime: 1784039704
+begin: Artists/Alohaii/SUMMERTIDE/Love Me Not
+song_begin: Love Me Not (feat. TOFIE).flac
+Time: 158.788
+Album: SUMMERTIDE
+Title: Love Me Not (feat. TOFIE)
+Date: 20240620
+Artist: Alohaii, TOFIE
+Genre: Music
+Format: 48000:24:2
+mtime: 1784038498
+added: 1794254332
+song_end
+end: Artists/Alohaii/SUMMERTIDE/Love Me Not
+directory: Magazines
+mtime: 1784039714
+begin: Artists/Alohaii/SUMMERTIDE/Magazines
+song_begin: Magazines (feat. Nia Suzune).flac
+Time: 168.292
+Album: SUMMERTIDE
+Title: Magazines (feat. Nia Suzune)
+Date: 20240620
+Artist: Alohaii, Nia Suzune
+Genre: Music
+Format: 48000:24:2
+mtime: 1784038492
+added: 1794254332
+song_end
+end: Artists/Alohaii/SUMMERTIDE/Magazines
+directory: One Step At A Time
+mtime: 1784039737
+begin: Artists/Alohaii/SUMMERTIDE/One Step At A Time
+song_begin: One Step At A Time.flac
+Time: 206.25
+Album: SUMMERTIDE
+Title: One Step At A Time
+Date: 20240620
+Artist: Alohaii, Miori Celesta
+Genre: Music
+Format: 48000:24:2
+mtime: 1784038496
+added: 1794254332
+song_end
+end: Artists/Alohaii/SUMMERTIDE/One Step At A Time
+directory: Rose
+mtime: 1784039468
+begin: Artists/Alohaii/SUMMERTIDE/Rose
+song_begin: Rose (feat. Ember Amane).flac
+Time: 186.936
+Album: SUMMERTIDE
+Title: Rose (feat. Ember Amane)
+Date: 20240620
+Artist: Alohaii, Ember Amane
+Genre: Music
+Format: 48000:24:2
+mtime: 1784038476
+added: 1794254332
+song_end
+end: Artists/Alohaii/SUMMERTIDE/Rose
+directory: Through The Night
+mtime: 1784039556
+begin: Artists/Alohaii/SUMMERTIDE/Through The Night
+song_begin: Through The Night (feat. Yuuka Bear).flac
+Time: 193.714
+Album: SUMMERTIDE
+Title: Through The Night (feat. Yuuka Bear)
+Date: 20240620
+Artist: Alohaii, Yuuka Bear
+Genre: Music
+Format: 48000:24:2
+mtime: 1784038484
+added: 1794254332
+song_end
+end: Artists/Alohaii/SUMMERTIDE/Through The Night
+end: Artists/Alohaii/SUMMERTIDE
+end: Artists/Alohaii
+directory: Cecilia Immergreen
+mtime: 1784039820
+begin: Artists/Cecilia Immergreen
+directory: From the Start
+mtime: 1784038845
+begin: Artists/Cecilia Immergreen/From the Start
+song_begin: From The Start.flac
+Time: 169.364
+Album: From The Start
+Title: From The Start
+Date: 20260501
+Artist: Cecilia Immergreen, Cecilia Immergreen, Biango
+Genre: Music
+Format: 48000:24:2
+mtime: 1784038827
+added: 1794254332
+song_end
+end: Artists/Cecilia Immergreen/From the Start
+end: Artists/Cecilia Immergreen
+directory: Dayglow
+mtime: 1784044325
+begin: Artists/Dayglow
+directory: Can I Call You Tonight？
+mtime: 1784044325
+begin: Artists/Dayglow/Can I Call You Tonight？
+song_begin: Can I Call You Tonight？.flac
+Time: 278.769
+Album: Can I Call You Tonight?
+Title: Can I Call You Tonight?
+Date: 20190815
+Artist: Dayglow
+Genre: Music
+Format: 48000:24:2
+mtime: 1784044228
+added: 1794254332
+song_end
+end: Artists/Dayglow/Can I Call You Tonight？
+end: Artists/Dayglow
+directory: JVKE
+mtime: 1784044417
+begin: Artists/JVKE
+directory: this is what ____ feels like (Vol. 1-4)
+mtime: 1784044594
+begin: Artists/JVKE/this is what ____ feels like (Vol. 1-4)
+directory: golden hour
+mtime: 1784044578
+begin: Artists/JVKE/this is what ____ feels like (Vol. 1-4)/golden hour
+song_begin: JVKE - golden hour (official music video).flac
+Time: 231.653
+Genre: Music
+Title: JVKE - golden hour (official music video)
+Date: 20221012
+Artist: JVKE
+Format: 48000:24:2
+mtime: 1784044517
+added: 1794254332
+song_end
+end: Artists/JVKE/this is what ____ feels like (Vol. 1-4)/golden hour
+end: Artists/JVKE/this is what ____ feels like (Vol. 1-4)
+end: Artists/JVKE
+directory: Laufey
+mtime: 1784044686
+begin: Artists/Laufey
+directory: A Matter of Time
+mtime: 1784044776
+begin: Artists/Laufey/A Matter of Time
+directory: Lover Girl
+mtime: 1784044776
+begin: Artists/Laufey/A Matter of Time/Lover Girl
+song_begin: Laufey - Lover Girl (Official Music Video).flac
+Time: 169.192
+Genre: Music
+Title: Laufey - Lover Girl (Official Music Video)
+Date: 20250730
+Artist: Laufey
+Format: 48000:24:2
+mtime: 1784044728
+added: 1794254332
+song_end
+end: Artists/Laufey/A Matter of Time/Lover Girl
+end: Artists/Laufey/A Matter of Time
+end: Artists/Laufey
+directory: Pedro Mizutani
+mtime: 1784044875
+begin: Artists/Pedro Mizutani
+directory: Melhor Se Acostumar
+mtime: 1784044875
+begin: Artists/Pedro Mizutani/Melhor Se Acostumar
+song_begin: Melhor Se Acostumar.flac
+Time: 119.616
+Album: Melhor Se Acostumar
+Title: Melhor Se Acostumar
+Date: 20230209
+Artist: Pedro Mizutani
+Genre: Music
+Format: 48000:24:2
+mtime: 1784044833
+added: 1794254332
+song_end
+end: Artists/Pedro Mizutani/Melhor Se Acostumar
+end: Artists/Pedro Mizutani
+directory: Reyrzy
+mtime: 1784038241
+begin: Artists/Reyrzy
+directory: PERSONAKOPIA
+mtime: 1763038544
+begin: Artists/Reyrzy/PERSONAKOPIA
+song_begin: Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 01 ST. WHAT IFS.flac
+Time: 147.343
+Title: ST. WHAT IFS
+Artist: Reyrzy
+Date: 2024
+Album: PERSONAKOPIA: A Tyler, The Creator & Persona Blend Tape
+Track: 1
+AlbumArtist: Reyrzy
+Format: 44100:24:2
+mtime: 1763038532
+added: 1794254332
+song_end
+song_begin: Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 02 RAH TAH TAH DORM.flac
+Time: 152.215
+Title: RAH TAH TAH DORM
+Artist: Reyrzy
+Date: 2024
+Album: PERSONAKOPIA: A Tyler, The Creator & Persona Blend Tape
+Track: 2
+AlbumArtist: Reyrzy
+Format: 44100:24:2
+mtime: 1763038532
+added: 1794254332
+song_end
+song_begin: Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 03 DARLING, YOUR NIGHT.flac
+Time: 272.217
+Title: DARLING, YOUR NIGHT
+Artist: Reyrzy
+Date: 2024
+Album: PERSONAKOPIA: A Tyler, The Creator & Persona Blend Tape
+Track: 3
+AlbumArtist: Reyrzy
+Format: 44100:24:2
+mtime: 1763038532
+added: 1794254332
+song_end
+song_begin: Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 04 I KILLED THE CARPET.flac
+Time: 240.43200000000002
+Title: I KILLED THE CARPET
+Artist: Reyrzy
+Date: 2024
+Album: PERSONAKOPIA: A Tyler, The Creator & Persona Blend Tape
+Track: 4
+AlbumArtist: Reyrzy
+Format: 44100:24:2
+mtime: 1763038532
+added: 1794254332
+song_end
+song_begin: Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 05 STICKY ALLEY.flac
+Time: 141.264
+Title: STICKY ALLEY
+Artist: Reyrzy
+Date: 2024
+Album: PERSONAKOPIA: A Tyler, The Creator & Persona Blend Tape
+Track: 5
+AlbumArtist: Reyrzy
+Format: 44100:24:2
+mtime: 1763038532
+added: 1794254332
+song_end
+song_begin: Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 06 BENEATH THE MASK OFF.flac
+Time: 260.927
+Title: BENEATH THE MASK OFF
+Artist: Reyrzy
+Date: 2024
+Album: PERSONAKOPIA: A Tyler, The Creator & Persona Blend Tape
+Track: 6
+AlbumArtist: Reyrzy
+Format: 44100:24:2
+mtime: 1763038532
+added: 1794254332
+song_end
+song_begin: Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 07 WHEN TOMORROW WAS THERE.flac
+Time: 130.867
+Title: WHEN TOMORROW WAS THERE
+Artist: Reyrzy
+Date: 2024
+Album: PERSONAKOPIA: A Tyler, The Creator & Persona Blend Tape
+Track: 7
+AlbumArtist: Reyrzy
+Format: 44100:24:2
+mtime: 1763038532
+added: 1794254332
+song_end
+song_begin: Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 08 THOUGHT CHANGE WAS DEAD.flac
+Time: 192.649
+Title: THOUGHT CHANGE WAS DEAD
+Artist: Reyrzy
+Date: 2024
+Album: PERSONAKOPIA: A Tyler, The Creator & Persona Blend Tape
+Track: 8
+AlbumArtist: Reyrzy
+Format: 44100:24:2
+mtime: 1763038532
+added: 1794254332
+song_end
+song_begin: Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 09 HEARTBEAT, HEARTBREAK BALLOON.flac
+Time: 163.987
+Title: HEARTBEAT, HEARTBREAK BALLOON
+Artist: Reyrzy
+Date: 2024
+Album: PERSONAKOPIA: A Tyler, The Creator & Persona Blend Tape
+Track: 9
+AlbumArtist: Reyrzy
+Format: 44100:24:2
+mtime: 1763038532
+added: 1794254332
+song_end
+song_begin: Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 10 I HOPE YOU FIND YOUR MEMORIES WHEN YOU GET HOME.flac
+Time: 191.69
+Title: I HOPE YOU FIND YOUR MEMORIES WHEN YOU GET HOME
+Artist: Reyrzy
+Date: 2024
+Album: PERSONAKOPIA: A Tyler, The Creator & Persona Blend Tape
+Track: 10
+AlbumArtist: Reyrzy
+Format: 44100:24:2
+mtime: 1763038532
+added: 1794254332
+song_end
+end: Artists/Reyrzy/PERSONAKOPIA
+end: Artists/Reyrzy
+directory: The Long Faces
+mtime: 1784045245
+begin: Artists/The Long Faces
+directory: Jane!
+mtime: 1784045072
+begin: Artists/The Long Faces/Jane!
+song_begin: Jane!.flac
+Time: 186.986
+Album: Jane!
+Title: Jane!
+Date: 20260323
+Artist: The Long Faces
+Genre: Music
+Format: 48000:24:2
+mtime: 1784045043
+added: 1794254332
+song_end
+end: Artists/The Long Faces/Jane!
+directory: Sail Away
+mtime: 1784045277
+begin: Artists/The Long Faces/Sail Away
+song_begin: Sail Away.flac
+Time: 224.453
+Album: Sail Away
+Title: Sail Away
+Date: 20200611
+Artist: The Long Faces
+Genre: Music
+Format: 48000:24:2
+mtime: 1784045243
+added: 1794254332
+song_end
+end: Artists/The Long Faces/Sail Away
+end: Artists/The Long Faces
+end: Artists

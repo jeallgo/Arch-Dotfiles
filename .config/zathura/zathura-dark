@@ -1,0 +1,17 @@
+# Enable recolor to invert document colors
+set recolor "true"
+
+# Define the dark background and light text (keeps original document colors otherwise)
+set recolor-darkcolor "#FFFFFF"
+set recolor-lightcolor "#1E1F29"
+
+# Statusbar and UI colors
+set default-bg "#282A36"
+set default-fg "#F8F8F2"
+set statusbar-bg "#1E1F29"
+set statusbar-fg "#F8F8F2"
+set inputbar-bg "#1E1F29"
+set inputbar-fg "#F8F8F2"
+
+# Map Ctrl+d to toggle recolor (dark mode) on and off
+map <C-d> recolor

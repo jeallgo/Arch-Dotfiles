@@ -1,0 +1,44 @@
+sw_volume: 18
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: pause
+current: 5
+time: 134.211
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:Artists/Dayglow/Can I Call You Tonight？/Can I Call You Tonight？.flac
+1:Artists/Alohaii/SUMMERTIDE/Rose/Rose (feat. Ember Amane).flac
+2:Artists/Alohaii/SUMMERTIDE/Hopeless Romantic/Hopeless Romantic.flac
+3:Artists/Alohaii/SUMMERTIDE/Angel In Disguise/Angel In Disguise.flac
+4:Artists/Alohaii/SUMMERTIDE/Embrace/Embrace (feat. Kiyon).flac
+5:Artists/Alohaii/SUMMERTIDE/One Step At A Time/One Step At A Time.flac
+6:Artists/Alohaii/SUMMERTIDE/Cinnamon/Cinnamon.flac
+7:Artists/Alohaii/SUMMERTIDE/Magazines/Magazines (feat. Nia Suzune).flac
+8:Artists/Alohaii/SUMMERTIDE/Heart Of Glass/Heart Of Glass.flac
+9:Artists/Alohaii/SUMMERTIDE/Love Me Not/Love Me Not (feat. TOFIE).flac
+10:Artists/Alohaii/SUMMERTIDE/Through The Night/Through The Night (feat. Yuuka Bear).flac
+11:Artists/The Long Faces/Sail Away/Sail Away.flac
+12:Artists/Reyrzy/PERSONAKOPIA/Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 01 ST. WHAT IFS.flac
+13:Artists/Reyrzy/PERSONAKOPIA/Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 02 RAH TAH TAH DORM.flac
+14:Artists/Reyrzy/PERSONAKOPIA/Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 03 DARLING, YOUR NIGHT.flac
+15:Artists/Reyrzy/PERSONAKOPIA/Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 04 I KILLED THE CARPET.flac
+16:Artists/Reyrzy/PERSONAKOPIA/Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 05 STICKY ALLEY.flac
+17:Artists/Reyrzy/PERSONAKOPIA/Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 06 BENEATH THE MASK OFF.flac
+18:Artists/Reyrzy/PERSONAKOPIA/Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 07 WHEN TOMORROW WAS THERE.flac
+19:Artists/Reyrzy/PERSONAKOPIA/Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 08 THOUGHT CHANGE WAS DEAD.flac
+20:Artists/Reyrzy/PERSONAKOPIA/Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 09 HEARTBEAT, HEARTBREAK BALLOON.flac
+21:Artists/Reyrzy/PERSONAKOPIA/Reyrzy - PERSONAKOPIA- A Tyler, The Creator & Persona Blend Tape - 10 I HOPE YOU FIND YOUR MEMORIES WHEN YOU GET HOME.flac
+22:Artists/Pedro Mizutani/Melhor Se Acostumar/Melhor Se Acostumar.flac
+23:Artists/The Long Faces/Jane!/Jane!.flac
+24:Artists/Cecilia Immergreen/From the Start/From The Start.flac
+25:Artists/Dayglow/Can I Call You Tonight？/Can I Call You Tonight？.flac
+26:Artists/JVKE/this is what ____ feels like (Vol. 1-4)/golden hour/JVKE - golden hour (official music video).flac
+27:Artists/Laufey/A Matter of Time/Lover Girl/Laufey - Lover Girl (Official Music Video).flac
+playlist_end

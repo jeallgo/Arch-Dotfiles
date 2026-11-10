@@ -1,0 +1,16 @@
+* {
+    bg-window:      #131313; 
+    bg-input:       #e2e2e2;
+    foreground:     #e2e2e2;
+    selected:       #bac3ff;
+    active:         #e5bad8;
+    urgent:         #ffb4ab;
+    text-normal:    #e2e2e2;
+    text-selected:  #152778;
+
+    bg-window-alpha: #131313; 
+
+    bg-input-alpha:  #e2e2e21F; 
+    selected-alpha:  #bac3ff26;  
+    text-muted:      #e2e2e24D;
+}

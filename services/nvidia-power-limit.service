@@ -1,0 +1,10 @@
+[Unit]
+Description=Limite de potencia Nvidia
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/nvidia-smi -pm 1
+ExecStart=/usr/bin/nvidia-smi -pl 125
+
+[Install]
+WantedBy=multi-user.target

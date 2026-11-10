@@ -1,0 +1,29 @@
+[opener]
+image = [
+    { run = 'qimgv "$@"', orphan = true, for = "unix" }
+]
+pdf = [
+    { run = 'zathura "$@"', orphan = true, for = "unix" }
+]
+epub = [
+    { run = 'zathura "$@"', orphan = true, for = "unix" }
+]
+video = [
+    { run = 'mpv "$@"', orphan = true, for = "unix" }
+]
+text = [
+    { run = 'kitty --detach nvim "$@"', orphan = true, for = "unix" }
+]
+
+[open]
+rules = [
+    { mime = "image/*", use = "image" },
+    { mime = "application/pdf", use = "pdf" },
+    { url = "*.epub", use = "epub" },
+    { mime = "application/epub+zip", use = "epub" },
+    { mime = "video/*", use = "video" },
+    { mime = "*", use = "text" }
+]
+
+[manager]
+show_hidden = true

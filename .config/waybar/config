@@ -1,0 +1,117 @@
+[
+  {
+    "battery": {
+      "format": "{capacity}% {icon}",
+      "format-icons": [
+        "󰁺",
+        "󰁻",
+        "󰁼",
+        "󰁽",
+        "󰁾",
+        "󰁿",
+        "󰂀",
+        "󰂁",
+        "󰂂",
+        "󰉁"
+      ],
+      "tooltip": false
+    },
+    "clock": {
+      "calendar": {
+        "format": {
+          "days": "<span color='#ecc6d9'><b>{}</b></span>",
+          "months": "<span color='#ffead3'><b>{}</b></span>",
+          "today": "<span color='#ff5555'><b><u>{}</u></b></span>",
+          "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+          "weeks": "<span color='#99ffdd'><b>W{}</b></span>"
+        },
+        "mode": "month",
+        "on-scroll": 1
+      },
+      "format": "{:%H:%M}",
+      "tooltip": true,
+      "tooltip-format": "<big><b>{:%Y-%m-%d}</b></big>\n\n<tt><small>{calendar}</small></tt>"
+    },
+    "custom/mpd": {
+      "escape": true,
+      "exec": "/nix/store/ij7k0kcl7190gzfiv829q9lafnja29wf-zscroll-2.0.1/bin/zscroll -l 25 -d 1.2 -u true 'mpc current --format \"♫ %artist% – %title%\"'",
+      "format": "{}",
+      "on-click": "mpc toggle",
+      "on-click-middle": "mpc prev",
+      "on-click-right": "mpc next",
+      "on-scroll-down": "mpc seek -5",
+      "on-scroll-up": "mpc seek +5"
+    },
+    "custom/notification": {
+      "escape": true,
+      "exec": "stdbuf -oL swaync-client -swb",
+      "exec-if": "which swaync-client",
+      "format": "{} {icon}",
+      "format-icons": {
+        "dnd-inhibited-none": "󰪑",
+        "dnd-inhibited-notification": "󰂛",
+        "dnd-none": "󰪑",
+        "dnd-notification": "󰂛",
+        "inhibited-none": "󰂜",
+        "inhibited-notification": "󱅫",
+        "none": "󰂜",
+        "notification": "󱅫"
+      },
+      "on-click": "swaync-client -t -sw",
+      "on-click-right": "swaync-client -d -sw",
+      "return-type": "json",
+      "tooltip": false
+    },
+    "height": 10,
+    "layer": "top",
+    "modules-center": [
+      "custom/mpd"
+    ],
+    "modules-left": [
+      "sway/workspaces"
+    ],
+    "modules-right": [
+      "pulseaudio",
+      "custom/notification",
+      "network",
+      "tray",
+      "battery",
+      "clock"
+    ],
+    "network": {
+      "format-disconnected": "⚠ Disconnected",
+      "format-ethernet": "󰈀 Ethernet",
+      "format-wifi": "  Wifi",
+      "tooltip": false
+    },
+    "position": "top",
+    "pulseaudio": {
+      "format": "{icon} {volume}%",
+      "format-icons": {
+        "default": [
+          "󰕿",
+          "󰖀",
+          "󰕾"
+        ]
+      },
+      "format-muted": "󰝟 0%",
+      "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+      "tooltip": false
+    },
+    "spacing": 0,
+    "sway/workspaces": {
+      "all-outputs": true,
+      "disable-scroll": true,
+      "format": "{name}",
+      "persistent-workspaces": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": []
+      }
+    }
+  }
+]

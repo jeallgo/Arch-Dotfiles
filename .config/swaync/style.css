@@ -1,0 +1,226 @@
+@import url("colors.css");
+
+* {
+  font-family: "JetBrainsMono Nerd Font Propo", monospace;
+  border-radius: 0px;
+}
+
+window#swaync-control-center {
+  background: transparent;
+}
+
+.control-center {
+  background: alpha(@surface, 1);
+  border-radius: 0px !important;
+  margin: 0px;
+  color: @on_surface;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.control-center .notification-row:focus,
+.control-center .notification-row:hover {
+  opacity: 1;
+  background: alpha(@on_surface, 0.05);
+  border-radius: 8px;
+}
+
+.notification-row {
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+.notification,
+.notification-content,
+.notification-action,
+.notification-default-action,
+.inline-reply-entry,
+.inline-reply-button,
+.widget-title,
+.widget-title>button,
+.widget-dnd,
+.widget-dnd>switch,
+.widget-dnd>switch slider,
+.widget-label>label,
+.widget-buttons-grid,
+.widget-buttons-grid>flowbox>flowboxchild>button,
+.widget-volume,
+.widget-backlight,
+.widget-mpris,
+.widget-mpris>box>button,
+.widget-mpris-player,
+.widget-mpris-album-art {
+  border-radius: 8px;
+}
+
+.notification {
+  background: @surface;
+  border: 2px solid @outline;
+  margin: 6px 0;
+}
+
+.close-button {
+  background: @error;
+  color: @surface;
+  text-shadow: none;
+  padding: 4px;
+  margin-top: 5px;
+  margin-right: 5px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  border: none;
+}
+
+.notification:hover .close-button {
+  opacity: 1;
+}
+
+.close-button:hover {
+  background: @primary;
+  box-shadow: none;
+  transition: all 0.15s ease-in-out;
+}
+
+.notification-action {
+  border: 2px solid @outline;
+  border-top: none;
+}
+
+.notification-default-action:hover,
+.notification-action:hover {
+  color: @primary;
+  background: alpha(@on_surface, 0.05);
+}
+
+.inline-reply-entry {
+  background: @surface;
+  color: @on_surface;
+  caret-color: @on_surface;
+  border: 1px solid @outline;
+}
+
+.inline-reply-button {
+  margin-top: 4px;
+  margin-left: 4px;
+  background: alpha(@on_surface, 0.05);
+  border: 1px solid @outline;
+  color: @on_surface;
+}
+
+.inline-reply-button:disabled {
+  background: transparent;
+  color: @outline;
+  border: 1px solid transparent;
+}
+
+.inline-reply-button:hover {
+  background: alpha(@on_surface, 0.1);
+}
+
+.summary {
+  font-size: 16px;
+  font-weight: 700;
+  background: transparent;
+  color: @primary;
+  text-shadow: none;
+}
+
+.time {
+  font-size: 16px;
+  font-weight: 700;
+  background: transparent;
+  color: @on_surface_variant;
+  text-shadow: none;
+  margin-right: 18px;
+}
+
+.body {
+  font-size: 15px;
+  font-weight: 400;
+  background: transparent;
+  color: @on_surface;
+  text-shadow: none;
+}
+
+.widget-title {
+  color: @primary;
+  background: alpha(@on_surface, 0.03);
+  padding: 8px 12px;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+.widget-title>button {
+  font-size: 1rem;
+  color: @on_surface;
+  background: alpha(@on_surface, 0.05);
+  box-shadow: none;
+}
+
+.widget-title>button:hover {
+  background: @error;
+  color: @surface;
+}
+
+.widget-dnd {
+  background: alpha(@on_surface, 0.03);
+  padding: 8px 12px;
+  margin: 5px 10px;
+  font-size: large;
+  color: @primary;
+}
+
+.widget-dnd>switch {
+  background: @outline;
+}
+
+.widget-dnd>switch:checked {
+  background: @primary;
+  border: 1px solid @primary;
+}
+
+.widget-label>label {
+  font-size: 1rem;
+  color: @on_surface;
+  margin: 10px;
+}
+
+.widget-buttons-grid {
+  font-size: x-large;
+  padding: 5px;
+  margin: 10px;
+  background: alpha(@on_surface, 0.03);
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button {
+  margin: 3px;
+  background: @surface;
+  color: @on_surface;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button:hover {
+  background: @primary;
+  color: @surface;
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button:checked {
+  background: @tertiary;
+  color: @surface;
+}
+
+.widget-mpris {
+  color: @on_surface;
+  background: alpha(@on_surface, 0.03);
+  padding: 5px 10px;
+  margin: 5px 10px;
+  box-shadow: none;
+}
+
+.widget-mpris>box>button,
+.widget-mpris-player,
+.widget-mpris-album-art {
+  box-shadow: none;
+  padding: 5px 10px;
+  margin: 10px 0 0 0;
+}

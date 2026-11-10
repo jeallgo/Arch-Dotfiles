@@ -1,0 +1,4 @@
+flatpak install flathub com.vesktop.Vesktop
+flatpak install flathub md.obsidian.Obsidian
+flatpak install flathub net.lunarclient.LunarClient
+flatpak install flathub sh.ppy.osu

@@ -1,0 +1,20 @@
+{
+  "control-center-height": 0,
+  "control-center-margin-bottom": 0,
+  "control-center-margin-left": 0,
+  "control-center-margin-right": 0,
+  "control-center-margin-top": 0,
+  "control-center-width": 380,
+  "cssPriority": "user",
+  "fit-to-screen": true,
+  "layer": "top",
+  "notification-inline-replies": true,
+  "positionX": "right",
+  "positionY": "top",
+  "widgets": [
+    "title",
+    "mpris",
+    "dnd",
+    "notifications"
+  ]
+}
